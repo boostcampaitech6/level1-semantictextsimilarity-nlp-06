@@ -112,7 +112,7 @@ if __name__ == '__main__':
     parser.add_argument('--wandb', action='store_true')
     parser.add_argument('--lr', default=1e-5)
     parser.add_argument('--num_epochs', default=20)
-    parser.add_argument('--max_length', default=64)
+    parser.add_argument('--max_length', default=160)
     parser.add_argument('--patient', default=20)
     parser.add_argument('--model_name', default='jhgan/ko-sroberta-sts')
     parser.add_argument('--device', default='cuda:0')
