@@ -20,10 +20,9 @@ level1-semantictextsimilarity-nlp-06 created by GitHub Classroom
 
 
 
-| **Learning Rate** | **Batch Size** | **Optimizer** | **Scheduler** | **Loss Function**|**Performance**|
+| **Learning Rate** | **Batch Size** | **Optimizer** | **Scheduler** | **Loss Function**| **Preprocessing**|**Performance**|
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-|2.5e-5|64|AdamP|OneCycleLR|MSELoss|0.917|
-|2.5e-5|64|AdamP|OneCycleLR|MSELoss|0.913|
-|2.5e-5|64|AdamP|OneCycleLR|L1Loss|0.921|
-|2.5e-5|64|AdamP|OneCycleLR|L1Loss|0.915| + With Hanspell
-
+|2.5e-5|64|AdamP|OneCycleLR|MSELoss|`Augmentation`|0.917|
+|2.5e-5|64|AdamP|OneCycleLR|MSELoss|`None`|0.913|
+|2.5e-5|64|AdamP|OneCycleLR|L1Loss|`None`|0.921|
+|2.5e-5|64|AdamP|OneCycleLR|L1Loss|`Hanspell`|0.915|
