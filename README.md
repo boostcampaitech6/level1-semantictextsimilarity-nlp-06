@@ -14,3 +14,13 @@ level1-semantictextsimilarity-nlp-06 created by GitHub Classroom
 황인수_T6192
 
 이건하_T6194
+
+
+## Performance
+
+|:learning rate:|:batch size:|:Optimizer:|:Scheduler:|
+
+
+| **Learning Rate** | **Batch Size** | **Optimizer** | **Scheduler** |
+|:--------:|:--------:|:--------:|:--------:|
+|1e-5|64|AdamP|OneCycleLR|
