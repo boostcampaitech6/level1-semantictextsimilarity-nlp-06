@@ -28,3 +28,4 @@ level1-semantictextsimilarity-nlp-06 created by GitHub Classroom
 |$2.5e^{-5}$|64|AdamP|OneCycleLR|L1Loss|`Hanspell`|0.915|
 |$2.5e^{-5}$|64|AdamP|OneCycleLR|L1Loss|`Hanspell`, `Augmentation`|0.923|
 |$2.5e^{-5}$|64|AdamP|OneCycleLR|L1Loss|`Augmentation`|0.916|
+|$5e^{-6}$|64|AdamP|'None'|L1Loss|`Hanspell`, `Augmentation`|0.919|
